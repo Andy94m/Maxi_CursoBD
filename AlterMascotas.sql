@@ -1,0 +1,7 @@
+/*
+ALTER TABLE Usuarios
+ADD CONSTRAINT PK_Usuario PRIMARY KEY (Id, Email)
+*/
+
+ALTER TABLE Usuarios
+ADD CONSTRAINT U_Email UNIQUE (Email)
