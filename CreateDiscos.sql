@@ -36,7 +36,7 @@ CREATE TABLE Estilo(
 
 GO
 
-CREATE TABLE Disco(
+CREATE TABLE Disco(	
 	Id INT NOT NULL IDENTITY(1,1),
 	Titulo VARCHAR(100),
 	FechaLanzamiento DATE,
